@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: calibri;
+}
+.header {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #0A1612 ;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+.logo img{
+    width: 150px;
+}
+.header .navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.navbar ul li {
+    margin: 0 20px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #C5C1C0;
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.navbar ul li a:hover {
+    background-color: #F7CE3E;
+    color: #0A1612;
+    transition: 0.6s ease;
+}
+.nav-user ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.nav-user ul li {
+    margin: 0 8px;
+}
+.nav-user ul li a {
+    text-decoration: none;
+    /* color: #0A1612; */
+    color: #F7CE3E;;
+    font-size: 16px;
+    padding: 5px 10px;
+    /* background-color: #F7CE3E; */
+    border: 1px solid #F7CE3E;;
+    border-radius: 5px;
+}
+.nav-user ul li a:hover {
+    /* background-color: white; */
+    background-color: #F7CE3E;
+    color: #0A1612;
+    transition: 0.3s ease;
+}
+.nav-user .user{
+    display: flex;
+}
+.nav-user .user a {
+    color: #F7CE3E;;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+.nav-user .user h3 {
+    color: #F7CE3E;;
+    font-size: 16px;
+    /* padding: 5px 10px; */
+    margin-right: 10px;
+}
+/* ------------------------------------------ */
+.content {
+    background-color: #C5C1C0;
+    z-index: -1;
+    padding: 20px 10%;
+    min-height: 80vh;
+}
+/* ------------------------------------------ */
+.content h2 {
+    margin: 10px 0;
+    margin-left: 10px;
+    font-size: 50px;
+    font-family: century gothic;
+}
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* .std-list table,th,td {
+    border: 2px solid #0A1612 ;
+    border-collapse: collapse;
+    width: 40%;
+    height: 40px;
+    text-align: center;
+    margin: 20px 0;
+} */
+.button {
+    box-shadow: 1px 2px 3px #0A1612;
+}
+a .button {
+    margin-left: 20px;
+}
+.button {
+    text-decoration: none;
+    background-color: #F7CE3E;
+    color: #0A1612 ;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+.button:hover {
+    background-color: #0A1612 ;
+    color: #F7CE3E;
+}
+.std-card {
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px 0;
+}
+.std-card .card-img img{
+    margin: 5px 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+/* .std-list a {
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+} */
+.std-list a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    font-weight: 1000;
+}
+.card-info {
+    display: flex;
+    flex-direction: column;
+}
+.card-info a{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+.card-info img {
+    width: 20px;
+    color: black;
+}
+.card-action {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ------------------------------------------ */
+.std-detail {
+    background-color: #0A1612;
+    height: 500px;
+    margin-top: 20px;
+    padding: 10px 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-radius: 5px 5px 0 0; */
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.std-info {
+    color : #C5C1C0;
+}
+.std-info h1{
+    font-size: 54px;
+    color: #F7CE3E;
+    font-family: century gothic;
+}
+.std-info hr {
+    border: 1px solid white;
+    margin: 5px 0;
+    width: 70%;
+}
+.std-detail img{
+    width: 400px;
+    border-radius: 50px;
+}
+.std-desc {
+    background-color: #0A1612;
+    height: auto;
+    padding: 0 10%;
+    padding-bottom: 50px;
+
+    align-items: center;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.std-desc p {
+    color : #C5C1C0;
+    text-align: justify;
+}
+/* ------------------------------------------ */
+.card-anime {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.title-card {
+    height: 450px;
+    width: 400px;
+    /* background-image: linear-gradient(to bottom,#6b4916,#947b20,#F7CE3E,#ffea9d);  */
+    background-color: white;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    /* padding: 5px 0; */
+}
+.title-card .card-img img{
+    margin: 5px 0;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+}
+.std-list a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    font-weight: 1000;
+}
+.card-info {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: left; */
+}
+.card-info a{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+.card-info img {
+    width: 20px;
+    color: black;
+}
+.card-action {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+/* ------------------------------------------ */
+.anime-detail {
+    background-color: #0A1612;
+    /* height: 500px; */
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    padding: 5% 8%;
+
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* border-radius: 5px 5px 0 0; */
+    /* border-top-right-radius: 10px;
+    border-top-left-radius: 10px; */
+    border-radius: 10px;
+    position: relative;
+}
+.anime-info {
+    color : #C5C1C0;
+    margin: 20px 0;
+    margin-left: 10%;
+}
+.anime-info h1 {
+    font-size: 54px;
+    color: #F7CE3E;
+    font-family: century gothic;
+}
+.anime-info h3 {
+    font-size: 30px;
+}
+.anime-info a {
+    text-decoration: none;
+    color: #C5C1C0;
+}
+.anime-info a:hover {
+    color: #F7CE3E;
+}
+.anime-info hr {
+    border: 1px solid white;
+    margin: 5px 0;
+    width: 70%;
+}
+.anime-detail img{
+    width: 400px;
+    border-radius: 10px;
+}
+.anime-desc {
+    background-color: #0A1612;
+    height: auto;
+    /* padding: 0 10%; */
+    /* padding-bottom: 50px; */
+    margin-top: 30px;
+
+    align-items: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.anime-desc p {
+    color : #C5C1C0;
+    text-align: justify;
+}
+/* ------------------------------------------ */
+
+
+
+
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-group span {
+    color: red;
+}
+.form-group {
+    margin: 10px 0;
+}
+.form-group textarea {
+    resize: none;
+}
+/* ------------------------------------------ */
+.form-group img {
+    width: 200px;
+}
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+.footer {
+    width: 100%;
+    padding: 10px 0;
+    bottom: 0;
+    background-color: #0A1612 ;
+    z-index: 1;
+}
+.footer h3 {
+    font-size: 14px;
+    color: #C5C1C0;
+    text-align: center;
+}
